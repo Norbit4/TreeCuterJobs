@@ -1,0 +1,7 @@
+name: TreeCuterJobs
+version: '${version}'
+main: pl.norbit.treecuterjobs.TreeCuterJobs
+api-version: '1.17'
+depend:
+  - TreeCuter
+  - Jobs
