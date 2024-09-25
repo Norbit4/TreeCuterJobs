@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'pl.norbit'
-version = 'v1.0.1'
+version = 'v1.0.2'
 
 repositories {
     mavenCentral()
@@ -21,7 +21,7 @@ dependencies {
     compileOnly "io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT"
 
     implementation files('src/main/resources/Jobs5.2.1.2.jar')
-    implementation files('src/main/resources/TreeCuter-v1.7.4.jar')
+    implementation files('src/main/resources/TreeCuter-v1.8.2.jar')
 }
 
 def targetJavaVersion = 16

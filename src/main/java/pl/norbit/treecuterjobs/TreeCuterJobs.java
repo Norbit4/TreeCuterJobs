@@ -13,11 +13,6 @@ public final class TreeCuterJobs extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new TreeCutListener(), this);
     }
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
-
     public static TreeCuterJobs getInstance() {
         return instance;
     }
